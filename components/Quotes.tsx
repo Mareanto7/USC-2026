@@ -5,7 +5,7 @@ import { CONTENT } from "../data";
 export default function Quotes() {
 
     return (
-        <section className="bg-white py-0 px-0 pb-12 mb-6">
+        <section className="bg-white py-0 px-0 pb-12">
             <div className="relative h-[100vh] w-full overflow-hidden">
                 <div className="absolute inset-0 bg-cover bg-center bg-no-repeat"
                      style={{backgroundImage: "url('/images/img-home1.png')"}}></div>

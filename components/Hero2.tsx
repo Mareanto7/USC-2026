@@ -9,8 +9,8 @@ export default function Hero2() {
             <div className="absolute inset-0 z-0 bg-cover bg-center bg-no-repeat brightness-[0.35]"
                  style={{backgroundImage: "url('/images/hero2.jpg')"}}/>
             <div className="absolute inset-0 z-10 bg-[#252a5a]/50"/>
-            <div className="relative z-20 text-left ml-7 px-1 w-full">
-                <p className="text-3xl md:text-4xl max-w-screen-xl mx-auto whitespace-pre-line font-bold tracking-wide mb-0.5 leading-tight">
+            <div className="relative z-20 text-left px-4 md:ml-7 md:px-1 w-full">
+                <p className="text-2xl md:text-4xl max-w-screen-xl mx-auto whitespace-pre-line font-bold tracking-wide mb-0.5 leading-tight">
                     {CONTENT.hero2.title}
                 </p>
                 <h1 className="text-xl md:text-3xl text-left text-white uppercase max-w-screen-xl mx-auto mb-20 tracking-wide leading-tight whitespace-pre-line justify-start">
@@ -19,7 +19,7 @@ export default function Hero2() {
                 <p className="text-xl md:text-3xl max-w-screen-xl mx-auto uppercase whitespace-pre-line font-bold tracking-widest mb-0.5">
                     {CONTENT.hero2.subtitle2}
                 </p>
-                <p className="text-3xl font-thin tracking-wider max-w-screen-xl mx-auto mb-6">
+                <p className="text-lg md:text-3xl font-thin tracking-wide md:tracking-wider max-w-screen-xl mx-auto mb-6">
                     {CONTENT.hero2.description.split("\n").map((line, lineIdx) => (
                         <span key={lineIdx} className="block">
                             {line.split(/\*\*(.*?)\*\*/).map((part, idx) =>

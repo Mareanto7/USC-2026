@@ -10,7 +10,7 @@ export default function Slide4() {
                 <h1 className="text-white text-center mt-12 mb-6 text-xl md:text-3xl max-w-screen-xl mx-auto uppercase whitespace-pre-line font-bold tracking-[0.4em]">
                     {CONTENT.finale.title}
                 </h1>
-                <p className="text-white text-3xl tracking-wide px-12 text-center font-light">
+                <p className="text-white text-lg md:text-3xl tracking-wide px-4 md:px-12 text-center font-light">
                     {CONTENT.finale.description.split(/\*\*(.*?)\*\*/).map((part, idx) =>
                         idx % 2 === 1 ? <span key={idx} className="font-bold">{part}</span> : part
                     )}
