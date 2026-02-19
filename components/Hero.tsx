@@ -12,7 +12,7 @@ export default function Hero() {
                 <p className="text-lg md:text-xl text-left text-white max-w-screen-xl mx-auto mb-3 leading-tight whitespace-pre-line justify-start">
                     {CONTENT.hero.subtitle2}
                 </p>
-                <h1 className="text-3xl md:text-5xl max-w-screen-xl mx-auto whitespace-pre-line font-bold tracking-wide -mb-6 leading-tight">
+                <h1 className="text-3xl md:text-5xl max-w-screen-xl mx-auto whitespace-pre-line font-bold tracking-wide -mb-2 md:-mb-6 leading-tight">
                     {CONTENT.hero.title}
                 </h1>
                 <p className="text-4xl md:text-8xl max-w-screen-xl mx-auto font-bold whitespace-pre-line tracking-tight leading-tight mb-16">

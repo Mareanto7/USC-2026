@@ -16,7 +16,7 @@ export default function Slide3() {
                     <h1 className="text-[#252a5a] text-3xl md:text-4xl max-w-screen-xl mx-auto uppercase whitespace-pre-line font-bold tracking-[0.2em] mb-8">
                         {CONTENT.work.title}
                     </h1>
-                    <p className="text-[#252a5a] text-3xl tracking-wide text-right font-light">
+                    <p className="text-[#252a5a] text-lg md:text-3xl tracking-wide text-right font-light">
                         {CONTENT.work.description.split(/\*\*(.*?)\*\*/).map((part, idx) =>
                             idx % 2 === 1 ? <span key={idx} className="font-bold">{part}</span> : part
                         )}

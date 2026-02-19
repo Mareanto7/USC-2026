@@ -1,4 +1,4 @@
-import { CONTENT } from ".../data";
+import { CONTENT } from "../../data";
 import Organizers from "@/components/Organizers";
 import Contacts from "@/components/Contacts";
 import Team from "@/components/Team";

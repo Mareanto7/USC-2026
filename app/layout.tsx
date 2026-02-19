@@ -2,7 +2,12 @@ import "./globals.css";
 import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
 import Script from "next/script";
+import type { Metadata, Viewport } from "next";
 
+export const viewport: Viewport = {
+  viewportFit: "cover",
+  themeColor: "#252a5a",
+};
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (

@@ -22,16 +22,16 @@ export const CONTENT = {
         title: "How will 2026 USC be?",
         subtitle1: "Roadmap",
         subtitle2: "#STEP 1",
-        description: "APPLY!! From the **20th February** we’ll be recruiting participants until March 18th\n" +
+        description: "APPLY! From **February 20th**, we’ll be recruiting participants until March 18th.\n" +
             "**Gather a team or apply alone** by presenting your profile;\n" +
-            "we’ll help you find your teammates",
+            "we’ll help you find your teammates.",
         cta: "APPLY NOW",
-        caption: "(Attention! If you apply as a complete team at least one of the members must be from either Polimi, Bocconi, Unimi, LIUC, Cattolica, UniPd, PoliTo, UniTn)",
+        caption: "(Attention! If you apply as a complete team, at least one of the members must be from either Polimi, Bocconi, Unimi, LIUC, Cattolica, UniPd, PoliTo, UniTn)",
     },
 
     teams: {
         title: "#DAY ZERO: TEAMS",
-        description: "If you haven’t found your **teammates** or your team is too small join us for a teambuilding event on the **13th April** that will help you find like-minded participants.",
+        description: "If you haven’t found your **teammates** or your team is too small, join us for a team-building event on the **13th of April** that will help you find like-minded participants.",
         carousel: [
             {src: "/images/carousel2/1.jpeg", alt: "Team 1"},
             {src: "/images/carousel2/2.png", alt: "Team 2"},
@@ -42,23 +42,23 @@ export const CONTENT = {
 
     opening: {
         title: "#THE BEGINNING",
-        description: "On the 17th and 18th April you’ll join us for the **opening ceremony**, introducing the challenge for this year and its theme, followed by a day of amazing **workshops and seminars**, as well as knowing our mentors .... to get the best chance at WINNING!",
+        description: "On the 17th and 18th of April, you’ll join us for the **opening ceremony**, introducing the challenge for this year and its theme, followed by a day of amazing **workshops and seminars**, as well as meeting our mentors... to get the best chance at WINNING!",
     },
 
     work: {
         title: "#THE HARD WORK",
         image: {src: "/images/hard-work.jpg", alt: "The Hard Work"},
-        description: "You’ll spend **three weeks** with your team, **developing an idea** on the topic, which will be revealed during the first two days, and have access to our **mentors** to help you put your best foot forward before delivery ",
+        description: "You’ll spend **three weeks** with your team, **developing an idea** on the topic, which will be revealed during the first two days, and have access to our **mentors** to help you put your best foot forward before delivery.",
     },
 
     finale: {
         title: "#GRAND FINALE",
-        description: "On **May 9th** you’ll join us to find out who will pitch, our **top 10** from which our winners will be selected by the jury. **Prizes** will be given by some of our sponsors, institutional partners and business angels",
+        description: "On **May 9th**, you’ll join us to find out who will pitch: our **top 10**, from which our winners will be selected by the jury. **Prizes** will be given by some of our sponsors, institutional partners, and business angels.",
     },
 
     stats: {
         title: "OUR ACHIEVEMENTS",
-        description: "THE Biggest student-led entrepreneurship event in Italy",
+        description: "The Biggest Student-Led Entrepreneurship Event in Italy",
         list: [
             {label: "Partners", value: "30"},
             {label: "Participants", value: "900"},
@@ -81,17 +81,17 @@ export const CONTENT = {
 
     about: {
         title: "Who are we?",
-        description: "The University Startup Challenge (USC) of Milan is an **interuniversity startup** competition organized by Entrepreneurship Club of Bocconi, Polimi, Statale, LIUC and Bicocca\n" +  "All students can apply individually or as part of a team. **Participants** will work in **teams** of 4–6 to develop an **innovative startup idea** in response to a challenge proposed by our main partners.",
+        description: "The University Startup Challenge (USC) of Milan is an **interuniversity startup** competition organized by the Entrepreneurship Clubs of Bocconi, Polimi, Statale, LIUC and Bicocca.\n" + "All students can apply individually or as part of a team. **Participants** will work in **teams** of 4–6 to develop an **innovative startup idea** in response to a challenge proposed by our main partners.",
         cards: [
             {
                 title: "#Learn",
                 icon: "/icons/book.svg",
-                text: "Apply theoretical knowledge to real-world challenges in a guided, **beginner-friendly environment**, receiving structured feedback from peers, judges, and industry experts. Develop a practical **understanding of entrepreneurship step by step**, even without prior experience, and learn how ideas are transformed into viable solutions. Strengthen critical thinking, problem-solving, teamwork, and communication skills through **hands-on collaboration**. Build an **entrepreneurial mindset** by embracing challenges, managing uncertainty, and learning from failures, core skills that are valuable far beyond startups."
+                text: "Apply theoretical knowledge to real-world challenges in a guided, **beginner-friendly environment**, receiving structured feedback from peers, judges, and industry experts. Develop a practical **understanding of entrepreneurship step by step**, even without prior experience, and learn how ideas are transformed into viable solutions. Strengthen critical thinking, problem-solving, teamwork, and communication skills through **hands-on collaboration**. Build an **entrepreneurial mindset** by embracing challenges, managing uncertainty, and learning from failures — core skills that are valuable far beyond startups."
             },
             {
                 title: "#Network",
                 icon: "/icons/brain.svg",
-                text: "Collaborate with peers, nurturing **friendships** and potential **partnerships**. Engage with seasoned entrepreneurs, industry experts, and investors, broadening your network and gleaning from their insights. Gain **mentorship** from experienced professionals, hastening your learning and personal development. Join a **dynamic entrepreneurial community**, abundant in knowledge sharing and support, fostering ongoing growth and innovation."
+                text: "Collaborate with peers, nurturing **friendships** and potential **partnerships**. Engage with seasoned entrepreneurs, industry experts, and investors, broadening your network and learning from their insights. Gain **mentorship** from experienced professionals, accelerating your learning and personal development. Join a **dynamic entrepreneurial community**, rich in knowledge sharing and support, fostering ongoing growth and innovation."
             },
             {
                 title: "#Build",
@@ -122,9 +122,9 @@ export const CONTENT = {
                 year: "2024",
                 image: "/images/editions/2024.png",
                 bullets: [
-                    "400 participants\n",
-                    "Supported by: Lombardini22\n",
-                    "**Theme**: Student Housing and Urban and Regeneration"
+                    "400 participants",
+                    "Supported by: Lombardini22",
+                    "**Theme**: Student Housing and Urban Regeneration"
                 ],
 
             },
@@ -227,7 +227,7 @@ export const CONTENT = {
             { name: "About Us", href: "/about" },
             { name: "Contacts", href: "/contacts" },
             { name: "Privacy", href: "https://app.enzuzo.com/policies/privacy/60056e1e-0d8b-11f1-ada3-5f6c4515702e" },
-            { name: "Cookies", href: "https://app.enzuzo.com/policies/cookies/60056e1e-0d8b-11f1-ada3-5f6c4515702e\n" },
+            { name: "Cookies", href: "https://app.enzuzo.com/policies/cookies/60056e1e-0d8b-11f1-ada3-5f6c4515702e" },
         ],
     },
 
@@ -245,11 +245,11 @@ export const CONTENT = {
         },
         {
             q: "Who can sign up?",
-            a: "All students currently enrolled at Bocconi, Politecnico, Statale, Bicocca, Cattolica, Liuc, Padova, Trento but also external students can participate."
+            a: "All students currently enrolled at Bocconi, Politecnico, Statale, Bicocca, Cattolica, LIUC, Padova, or Trento can participate, but external students are also welcome."
         },
         {
             q: "How should teams be composed?",
-            a: "Teams could be composed before application, from 4 to a maximum of 6 students. We strongly encourage mixed teams."
+            a: "Teams can be formed before applying, from 4 to a maximum of 6 students. We strongly encourage mixed teams."
         },
         {
             q: "What happens if I don’t have a team?",
@@ -313,13 +313,13 @@ export const CONTENT = {
         },
         {
             name: "Arianna Attard",
-            role: "EV advisor ",
+            role: "EV Advisor",
             image: "/images/team/attard.jpg",
             contact: "arianna.attard@unibocconi.it",
         },
         {
             name: "Andrea Mulazzani",
-            role: "EV advisor ",
+            role: "EV Advisor",
             image: "/images/team/mulazzani.jpg",
             contact: "andrea.mulazzani@eclubventures.com",
         },

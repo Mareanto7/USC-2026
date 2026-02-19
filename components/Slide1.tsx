@@ -9,14 +9,14 @@ export default function Slide1() {
                 <div className="text-center mb-[1.5em] mt-6 text-xl font-bold uppercase">
                     <h2 className="text-right text-white text-xl md:text-3xl tracking-[0.5em] mb-2 justify-right">{CONTENT.teams.title}</h2>
                 </div>
-                <div className="text-center text-xl ml-5 mt-2 mb-16">
-                    <p className="text-right text-white text-3xl tracking-wide font-light">
+                <div className="text-center text-xl ml-0 md:ml-5 mt-2 mb-16">
+                    <p className="text-right text-white text-lg md:text-3xl tracking-wide font-light">
                         {CONTENT.teams.description.split(/\*\*(.*?)\*\*/).map((part, idx) =>
                             idx % 2 === 1 ? <span key={idx} className="font-bold">{part}</span> : part
                         )}
                     </p>
                 </div>
-                <div className="grid grid-cols-1 md:grid-cols-4 gap-4 mb-20">
+                <div className="grid grid-cols-2 md:grid-cols-4 gap-4 mb-20">
                     {CONTENT.teams.carousel.map((img, idx) => (
                         <div key={idx} className="overflow-hidden rounded-xl">
                             <img src={img.src} alt={img.alt}

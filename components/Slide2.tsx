@@ -8,11 +8,11 @@ export default function Slide2() {
             <div className="absolute inset-0 z-0 bg-cover bg-center bg-no-repeat brightness-[0.35]"
                  style={{backgroundImage: "url('/images/beginning.jpg')"}}/>
             <div className="absolute inset-0 z-10 bg-[#252a5a]/50"/>
-            <div className="relative z-20 ml-7 text-justify pr-[20%]">
+            <div className="relative z-20 px-6 md:ml-7 md:pr-[20%] text-left">
                 <h1 className="text-xl md:text-3xl max-w-screen-xl mx-auto uppercase whitespace-pre-line font-bold tracking-widest mb-0.5">
                     {CONTENT.opening.title}
                 </h1>
-                <p className="text-white text-3xl tracking-wide text-justify font-light">
+                <p className="text-white text-lg md:text-3xl tracking-wide text-left md:text-justify font-light">
                     {CONTENT.opening.description.split(/\*\*(.*?)\*\*/).map((part, idx) =>
                         idx % 2 === 1 ? <span key={idx} className="font-bold">{part}</span> : part
                     )}
