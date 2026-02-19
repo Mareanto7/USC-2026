@@ -6,7 +6,7 @@ export default function Hero() {
 
     return (
         <section className="relative h-screen w-full flex items-center justify-center text-white overflow-hidden">
-            <div className="absolute inset-0 z-0 bg-cover bg-center bg-no-repeat" style={{backgroundImage: "url('/hero-bg.png')"}}/>
+            <div className="absolute inset-0 z-0 bg-cover bg-center bg-no-repeat" style={{backgroundImage: "url('/images/hero-bg.png')"}}/>
             <div className="absolute inset-0 z-10 bg-gradient-to-tr from-[#69523a]/52 to-[#681e3d]/70"/>
             <div className="relative z-20 text-left ml-7 px-1 w-full">
                 <p className="text-lg md:text-xl text-left text-white max-w-screen-xl mx-auto mb-3 leading-tight whitespace-pre-line justify-start">

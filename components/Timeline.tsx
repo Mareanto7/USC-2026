@@ -10,7 +10,8 @@ function EditionText({ ed }: {ed: any }) {
                 {ed.bullets.map((b: string, i: number) => (
                     <li key={i} className="flex items-center gap-2">
                         <span className="w-2 h-2 rounded-full bg-white flex-shrink-0"/>
-                        {b}
+                        <span>{b.split(/\*\*(.*?)\*\*/).map((part, idx) => idx % 2 === 1 ? <span key={idx} className="font-bold">{part}</span> : part)}
+                        </span>
                     </li>
                 ))}
             </ul>
@@ -53,9 +54,8 @@ export default function Timeline() {
             <section
                 className="relative min-h-[80vh] flex flex-col items-center justify-center gap-8 overflow-hidden">
                 <div className="absolute left-1/2 top-0 h-48 w-0.5 bg-white -translate-x-1/2 z-20" />
-                <div className="absolute left-1/2 bottom-0 w-4 h-4 rounded-full bg-white -translate-x-1/2 translate-y-1/2 z-10"/>
                 <div className="absolute left-1/2 top-48 w-10 h-10 rounded-full bg-white -translate-x-1/2 -translate-y-1/2 z-20"/>
-                <div className="absolute inset-0 z-0 bg-cover bg-center brightness-[0.35]" style={{backgroundImage: "url('/cta-about.png')"}}/>
+                <div className="absolute inset-0 z-0 bg-cover bg-center brightness-[0.35]" style={{backgroundImage: "url('/images/cta-about.png')"}}/>
                 <div className="absolute inset-0 z-10 bg-[#252a5a]/40"/>
                 <div className="relative z-20 text-center px-8 mt-16">
                     <p className="text-white text-4xl font-bold tracking-wide mb-16">{CONTENT.about.cta}</p>

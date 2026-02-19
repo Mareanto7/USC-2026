@@ -7,7 +7,7 @@ export default function Hero2() {
     return (
         <section className="pt-48 pb-24 relative h-full w-full flex items-center justify-center text-white">
             <div className="absolute inset-0 z-0 bg-cover bg-center bg-no-repeat brightness-[0.35]"
-                 style={{backgroundImage: "url('/hero2.jpg')"}}/>
+                 style={{backgroundImage: "url('/images/hero2.jpg')"}}/>
             <div className="absolute inset-0 z-10 bg-[#252a5a]/50"/>
             <div className="relative z-20 text-left ml-7 px-1 w-full">
                 <p className="text-3xl md:text-4xl max-w-screen-xl mx-auto whitespace-pre-line font-bold tracking-wide mb-0.5 leading-tight">
@@ -39,7 +39,6 @@ export default function Hero2() {
                     </a>
                 </div>
             </div>
-
 
             {/* --- EVENTSPLAN --- */}
         </section>

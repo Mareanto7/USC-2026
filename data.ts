@@ -47,7 +47,7 @@ export const CONTENT = {
 
     work: {
         title: "#THE HARD WORK",
-        image: {src: "/hard-work.jpg", alt: "The Hard Work"},
+        image: {src: "/images/hard-work.jpg", alt: "The Hard Work"},
         description: "You’ll spend **three weeks** with your team, **developing an idea** on the topic, which will be revealed during the first two days, and have access to our **mentors** to help you put your best foot forward before delivery ",
     },
 
@@ -65,9 +65,9 @@ export const CONTENT = {
             {label: "Guests", value: "60"},
         ],
         carousel: [
-            {src: "/images/carousel/3.jpg", alt: "Students posing"},
-            {src: "/images/carousel/2.jpg", alt: "Students Assembly 2"},
-            {src: "/images/carousel/1.jpg", alt: "Students Assembly 2"},
+            {src: "/images/carousel/1.png", alt: "Students posing"},
+            {src: "/images/carousel/2.png", alt: "Students Assembly 2"},
+            {src: "/images/carousel/3.png", alt: "Students Assembly 2"},
         ],
         button: "The 2026 Challenge",
         link: "/usc2026",
@@ -106,7 +106,7 @@ export const CONTENT = {
                 bullets: [
                     "150 participants",
                     "Supported by: ATM",
-                    "Theme: Smart Mobility",
+                    "**Theme**: Smart Mobility",
                 ],
             },
             {
@@ -115,7 +115,7 @@ export const CONTENT = {
                 bullets: [
                     "300 participants",
                     "Supported by: A2A",
-                    "Theme: Sustainable Energy",
+                    "**Theme**: Sustainable Energy",
                 ],
             },
             {
@@ -124,7 +124,7 @@ export const CONTENT = {
                 bullets: [
                     "400 participants\n",
                     "Supported by: Lombardini22\n",
-                    "Theme: Student Housing and Urban and Regeneration"
+                    "**Theme**: Student Housing and Urban and Regeneration"
                 ],
 
             },
@@ -134,7 +134,7 @@ export const CONTENT = {
                 bullets: [
                     "450 participants",
                     "Supported by: Musa Carl",
-                    "Theme: Smart Cities",
+                    "**Theme**: Smart Cities",
                 ],
             },
         ],

@@ -8,7 +8,7 @@ export default function FAQs() {
         <section className="bg-[#252a5a] py-0 px-0 pb-12 mb-6">
             <div className="relative h-[450px] w-full overflow-hidden">
                 <div className="absolute inset-0 bg-cover bg-bottom bg-no-repeat"
-                     style={{backgroundImage: "url('/img-faqs.png')"}}></div>
+                     style={{backgroundImage: "url('/images/img-faqs.png')"}}></div>
                 <div className="absolute inset-0 bg-gradient-to-tr from-[#252a5a]/50 to-[#252a5a]/50"></div>
             </div>
             <div className="max-w-3xl mt-6 mx-auto">

@@ -12,7 +12,7 @@ export default function Navbar() {
             <div className="w-full mx-auto px-4 sm:px-6 lg:px-8 h-20 flex justify-between">
 
               <div className="flex items-center">
-                  <Link href="/" className="hover:opacity-70 transition-opacity"><img src="/2026.png" alt="USC Logo" className="h-16 w-auto brightness-100 radius"/></Link>
+                  <Link href="/" className="hover:opacity-70 transition-opacity"><img src="/images/2026.png" alt="USC Logo" className="h-16 w-auto brightness-100 radius"/></Link>
               </div>
 
                 {/* MENU (hidden on mobile but visible on desktop */}
